@@ -188,7 +188,7 @@
         { "settingEnum" : "EAresIntSettingName::PlayerPerfShowEndToEndLatency", "value" : 0 },
         { "settingEnum" : "EAresIntSettingName::ShootingRangeSkillTestSetting", "value" : 0 },
         { "settingEnum" : "EAresIntSettingName::ShootingRangeDefuseModuleDifficultySetting", "value" : 0 },
-        { "settingEnum" : "EAresIntSettingName::MegamapCalloutVisibility", "value" : 1 }
+        { "settingEnum" : "EAresIntSettingName::MegamapCalloutVisibility", "value" : 0 }
     ],
     "roamingSetttingsVersion":13,
     "stringSettings":[
