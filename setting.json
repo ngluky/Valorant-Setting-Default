@@ -94,13 +94,26 @@
         }
     ],
     "boolSettings":[
+        { "settingEnum" : "EAresBoolSettingName::ShowKeybindsOnMinimap", "value" : false},
+        { "settingEnum" : "EAresBoolSettingName::HasSeenNewPlayerSettings", "value" : true},
+        { "settingEnum" : "EAresBoolSettingName::MinimapTranslates", "value" : false},      
+        { "settingEnum" : "EAresBoolSettingName::EnableMinimapVisionCones", "value" : false},
+        { "settingEnum" : "EAresBoolSettingName::EnableInstabilityIndicators", "value" : false},
+        { "settingEnum" : "EAresBoolSettingName::ShowBulletTracers", "value" : false},
         { "settingEnum" : "EAresBoolSettingName::MouseInverted", "value" : false },
+        { "settingEnum" : "EAresBoolSettingName::MinimapRotates", "value" : false },
+        { "settingEnum" : "EAresBoolSettingName::MinimapFixedRotation", "value" : false},
+        { "settingEnum" : "EAresBoolSettingName::ToggleCrouch", "value" : true}, 
+        { "settingEnum" : "EAresBoolSettingName::DefaultToWalk", "value" : true},
+        { "settingEnum" : "EAresBoolSettingName::ToggleWalk", "value" : true},
+        { "settingEnum" : "EAresBoolSettingName::RawInputBufferEnabled", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::MouseWheelWrapsInventory", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::MouseWheelIncludesLevelSlot", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::AutoRescopeSniper", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::HoldInputForADS", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::ShowBlood", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::ShowCorpses", "value" : false },
+        { "settingEnum" : "EAresBoolSettingName::SpectatorCountWidgetVisible", "value" : false},
         { "settingEnum" : "EAresBoolSettingName::VoipDucksMusicVolume", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::CrosshairUseAdvancedOptions", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::AlwaysShowInventoryWidgets", "value" : false },
@@ -110,6 +123,8 @@
         { "settingEnum" : "EAresBoolSettingName::TacticalCalloutsInChat", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::HasSeenSettingsTutorial", "value" : true },
         { "settingEnum" : "EAresBoolSettingName::HasSeenPhotoSensitivityWarning", "value" : true },
+        { "settingEnum" : "EAresBoolSettingName::HasEverStartedAMatch", "value" : true },
+        { "settingEnum" : "EAresBoolSettingName::HasAcceptedCodeOfConduct", "value" : true },
         { "settingEnum" : "EAresBoolSettingName::IncognitoHideMatchmadePlayerNames", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::IncognitoRejectFriendRequests", "value" : false },
         { "settingEnum" : "EAresBoolSettingName::IncognitoRejectPartyInvitesByDisplayName", "value" : false },
@@ -172,8 +187,8 @@
         { "settingEnum" : "EAresIntSettingName::PlayerPerfShowNetworkJitter", "value" : 0 },
         { "settingEnum" : "EAresIntSettingName::PlayerPerfShowEndToEndLatency", "value" : 0 },
         { "settingEnum" : "EAresIntSettingName::ShootingRangeSkillTestSetting", "value" : 0 },
-        { "settingEnum" : "EAresIntSettingName::ShootingRangeDefuseModuleDifficultySetting", "value" : 0
-        }
+        { "settingEnum" : "EAresIntSettingName::ShootingRangeDefuseModuleDifficultySetting", "value" : 0 },
+        { "settingEnum" : "EAresIntSettingName::MegamapCalloutVisibility", "value" : 1 }
     ],
     "roamingSetttingsVersion":13,
     "stringSettings":[
